@@ -12,7 +12,7 @@ A entidade "Usuário" representa os usuários do sistema.
 | nickname  | String  | Sim         | Sim   | Apelido do usuário                 |
 | email     | String  | Sim         | Sim   | Endereço de e-mail do usuário      |
 | password  | String  | Sim         | Não   | Senha do usuário (criptografada)   |
-| photo     | ObjectId| Não         | Não   | Senha do usuário (criptografada)   |
+| photo     | ObjectId| Não         | Não   | ID da imagem de perfil             |
 | createdAt | Date    | Default     | Não   | Data da criação do registro        |
 | updatedAt | Date    | Default     | Não   | Data da atualizacão do registro    |
 
